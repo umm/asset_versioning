@@ -1,0 +1,12 @@
+{
+    "name": "umm@asset_versioning-Editor",
+    "references": [
+        "umm@asset_userdata-Editor"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

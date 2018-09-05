@@ -1,0 +1,31 @@
+{
+  "name": "@umm/asset_versioning",
+  "version": "1.0.0",
+  "description": "Set asset version into `userData` in `.meta`",
+  "homepage": "https://github.com/umm/asset_versioning",
+  "bugs": {
+    "url": "https://github.com/umm/asset_versioning/issues"
+  },
+  "scripts": {
+    "umm:init": "umm-init",
+    "umm:generate_assembly_definition": "umm-generate_assembly_definition",
+    "umm:module:install": "umm-module-install",
+    "umm:module:uninstall": "umm-module-uninstall",
+    "postinstall": "npm run --silent umm:module:install",
+    "postuninstall": "npm run --silent umm:module:uninstall"
+  },
+  "author": "Tetsuya Mori",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:umm/asset_versioning"
+  },
+  "files": [
+    "Assets"
+  ],
+  "dependencies": {
+    "@umm/asset_userdata": "umm/asset_userdata#^1.0.0",
+    "@umm/scripts": "umm/scripts#^1.0.0"
+  },
+  "devDependencies": {}
+}

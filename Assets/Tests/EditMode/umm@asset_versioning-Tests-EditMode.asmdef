@@ -1,0 +1,14 @@
+{
+    "name": "umm@asset_versioning-Tests-EditMode",
+    "references": [
+        "umm@asset_versioning-Editor"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
